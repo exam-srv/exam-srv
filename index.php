@@ -18,5 +18,6 @@
     <form action="/del.php" method="post">
         <button type="submit">Удалить все данные из БД</button>
     </form>
+    <br>
 </body>
 </html>
