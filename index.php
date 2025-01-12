@@ -10,9 +10,11 @@
         <input type="text" name="column2" placeholder="Введите значение column2"><br>
         <button type="submit">Добавить в БД</button>
     </form>
+    <br>
     <form action="/out.php" method="post">
         <button type="submit">Вывести данные из БД</button>
     </form>
+    <br>
     <form action="/del.php" method="post">
         <button type="submit">Удалить все данные из БД</button>
     </form>
