@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Пример записи в MySQL</title>
+    <link href="/style.css" rel="stylesheet" />
 </head>
 <body>
     <br>
+    <div class=border>
     <p>Введите значения для столбца 1 и столбца 2:</p>
     <div>
     <form action="/script.php" method="post">
@@ -23,6 +25,7 @@
         <button type="submit">Удалить все данные из БД</button>
     </form>
     <br>
+    </div>
     </div>
 </body>
 </html>
