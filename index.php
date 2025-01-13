@@ -16,6 +16,10 @@
         <input type="text" size="40" name="column2" placeholder="Введите значение column2"><br>
         <br><br>
         <button type="submit">Добавить в БД</button>
+            <?php
+    $Ans = $_POST['Answer'];
+    echo "sdfsdfsdf";
+    ?>
     </form>
     <br>
     <form action="/out.php" method="post">
@@ -26,10 +30,6 @@
         <button type="submit">Удалить все данные из БД</button>
     </form>
     <br>
-    <?php
-    $Ans = $_POST['Answer'];
-    echo "$Ans";
-    ?>
     </div>
 </body>
 </html>
