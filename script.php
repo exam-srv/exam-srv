@@ -6,7 +6,6 @@ $password = "Msk2025!";
 $dbName = "my_db";
 $Col1 = $_POST['column1'];
 $Col2 = $_POST['column2'];
-$Answer = "Запись в БД произведена!";
 
         // создание соединения
         $conn = mysqli_connect($serverName, $userName, $password, $dbName);
@@ -21,6 +20,7 @@ $Answer = "Запись в БД произведена!";
 
         // добавление данных и проверка результата
         if (mysqli_query($conn, $sql)) {
+            $result = 'Операция выполнена';
             echo "Данные внесены";
         } else {
             echo "Не удалось внести данные. Ошибка: " . mysqli_error($conn);
@@ -29,11 +29,11 @@ $Answer = "Запись в БД произведена!";
         // закрытие соединения
         mysqli_close($conn);
             
-        function goback()
-        {
-            header("Location: {$_SERVER['HTTP_REFERER']}");
+        function goback($result) {
+            header("Location: /index.php?result=$result");
             exit;
         }
+        
         goback();
 ?>
         <p> <a href="/index.php">Вернуться назад</a> </p>
