@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Удаление записей из БД</title>
+    <link href="/style.css" rel="stylesheet" />
+</head>
+<body>
+
 <?php
 
 $serverName = "localhost";
@@ -26,3 +35,5 @@ $dbName = "my_db";
 ?>
           <br>
           <p> <a href="/index.php">Вернуться назад</a> </p>
+    </body>
+</html>

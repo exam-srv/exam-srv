@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>SELECT</title>
+    <title>Вывод данных из БД</title>
+    <link href="/style.css" rel="stylesheet" />
     <style>
         td:nth-child(5),td:nth-child(6){text-align:center;}
         table{border-spacing: 0;border-collapse: collapse;}
