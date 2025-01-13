@@ -9,7 +9,6 @@
     <br>
     <div class=border>
     <p>Введите значения для столбца 1 и столбца 2:</p>
-    <div>
     <form action="/script.php" method="post">
         <input type="text" name="column1" placeholder="Введите значение column1"><br>
         <input type="text" name="column2" placeholder="Введите значение column2"><br>
@@ -25,7 +24,6 @@
         <button type="submit">Удалить все данные из БД</button>
     </form>
     <br>
-    </div>
     </div>
 </body>
 </html>
