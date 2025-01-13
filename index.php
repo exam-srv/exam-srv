@@ -6,11 +6,9 @@
     <link href="/style.css" rel="stylesheet" />
 </head>
 <body>
-    <div class=title>
-        <p>Сайт работает на PHP (NGINX) + MySQL</p>
-    </div>
     <br>
     <div class=border>
+    <p class=title>Сайт работает на PHP (NGINX) + MySQL</p>
     <p>Введите значения для столбца 1 и столбца 2:</p>
     <form action="/script.php" method="post">
         <input type="text" name="column1" placeholder="Введите значение column1"><br>
