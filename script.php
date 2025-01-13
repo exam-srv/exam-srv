@@ -28,11 +28,8 @@ $Col2 = $_POST['column2'];
         // закрытие соединения
         mysqli_close($conn);
         
-        function goback()
-        {
-            header("Location: {$_SERVER['HTTP_REFERER']}");
-            exit;
-        }
-        goback();
+        echo "Запись произведена!";
+        
+
 ?>
         <p> <a href="/index.php">Вернуться назад</a> </p>
