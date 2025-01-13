@@ -2,15 +2,14 @@ body{
     background-color: black;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .border{
+    margin-top: 20%;
     padding: 50px;
     border: 1px solid red;
     background-color: white;
     justify-content: center;
-    align-items: center;
 }
 
 .title{
