@@ -11,6 +11,7 @@
     </style>
 </head>
 <body>
+<div class=border>
 <?php
 $db_server = "localhost";
 $db_user = "web_db";
@@ -52,5 +53,6 @@ $db = null;
 ?> 
 <br><br>
 <p> <a href="/index.php">Вернуться назад</a> </p>
+</div>
 </body>
 </html>

@@ -6,7 +6,7 @@
     <link href="/style.css" rel="stylesheet" />
 </head>
 <body>
-
+<div class=border>
 <?php
 
 $serverName = "localhost";
@@ -35,5 +35,6 @@ $dbName = "my_db";
 ?>
           <br>
           <p> <a href="/index.php">Вернуться назад</a> </p>
+    </div>
     </body>
 </html>
