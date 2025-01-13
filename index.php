@@ -9,7 +9,7 @@
     <form action="/script.php" method="post">
         <input type="text" name="column1" placeholder="Введите значение column1"><br>
         <input type="text" name="column2" placeholder="Введите значение column2"><br>
-        <br>
+        <br><br>
         <button type="submit">Добавить в БД</button>
     </form>
     <br>
