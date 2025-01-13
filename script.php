@@ -34,5 +34,4 @@ $Col2 = $_POST['column2'];
     header("Location: /index.php?result=$result");
     exit;
 }
-
 ?>
