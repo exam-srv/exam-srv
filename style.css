@@ -1,10 +1,10 @@
 body{
     background-color: black;
-    justify-content: center;
+    display: flex;
 }
 
 .border{
     border: 1px solid red;
     background-color: white;
-    display: flex;
+    justify-content: center;
 }
