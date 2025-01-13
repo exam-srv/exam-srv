@@ -27,8 +27,15 @@
     </form>
     <br>
     <?php if(isset($_GET['result'])): ?>
-        <p>Результат операции: <?php echo $_GET['result']; ?></p>
+        <p id=result>Результат операции: <?php echo $_GET['result']; ?></p>
     <?php endif; ?>
     </div>
+    
+    <script>
+    setTimeout(function() {
+    document.getElementById("result").style.display = "none";
+    }, 3000);
+    </script>
+
 </body>
 </html>
