@@ -11,9 +11,9 @@
     <p class=title><h3>Сайт работает на PHP (NGINX) + MySQL</h3></p>
     <p>Введите значения для столбца 1 и столбца 2:</p>
     <form action="/script.php" method="post">
-        <input type="text" name="column1" placeholder="Введите значение column1"><br>
+        <input type="text" size="20" name="column1" placeholder="Введите значение column1"><br>
         <br>
-        <input type="text" name="column2" placeholder="Введите значение column2"><br>
+        <input type="text" size="20" name="column2" placeholder="Введите значение column2"><br>
         <br><br>
         <button type="submit">Добавить в БД</button>
     </form>
