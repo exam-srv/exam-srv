@@ -13,7 +13,7 @@
 <?php
 $db_server = "localhost";
 $db_user = "web_db";
-$db_password = "Msk2025!";n
+$db_password = "Msk2025!";
 $db_name = "my_db";
  
 try {
@@ -49,6 +49,7 @@ catch(PDOException $e) {
 // Закрываем соединение
 $db = null;
 ?> 
+<br>
 <p> <a href="/index.php">Вернуться назад</a> </p>
 </body>
 </html>
