@@ -6,6 +6,9 @@
     <link href="/style.css" rel="stylesheet" />
 </head>
 <body>
+    <div class=title>
+        <p>Сайт работает на PHP (NGINX) + MySQL</p>
+    </div>
     <br>
     <div class=border>
     <p>Введите значения для столбца 1 и столбца 2:</p>
