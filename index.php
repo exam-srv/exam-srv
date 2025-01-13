@@ -18,7 +18,7 @@
         <button type="submit">Добавить в БД</button>
             <?php
     $Ans = $_POST['Answer'];
-    echo "sdfsdfsdf";
+    echo "$Ans";
     ?>
     </form>
     <br>
