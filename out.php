@@ -49,7 +49,7 @@ catch(PDOException $e) {
 // Закрываем соединение
 $db = null;
 ?> 
-<br>
+<br><br>
 <p> <a href="/index.php">Вернуться назад</a> </p>
 </body>
 </html>
