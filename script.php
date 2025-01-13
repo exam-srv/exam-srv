@@ -6,7 +6,7 @@ $password = "Msk2025!";
 $dbName = "my_db";
 $Col1 = $_POST['column1'];
 $Col2 = $_POST['column2'];
-$Answer = "Запись в БД произведена!"
+$Answer = "Запись в БД произведена!";
 
         // создание соединения
         $conn = mysqli_connect($serverName, $userName, $password, $dbName);
