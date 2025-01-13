@@ -36,4 +36,3 @@ $Col2 = $_POST['column2'];
 }
 
 ?>
-        <p> <a href="/index.php">Вернуться назад</a> </p>
