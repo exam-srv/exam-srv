@@ -22,6 +22,7 @@ $Col2 = $_POST['column2'];
         if (mysqli_query($conn, $sql)) {
             $result = 'Операция выполнена';
             echo "Данные внесены";
+            goback($result);
         } else {
             echo "Не удалось внести данные. Ошибка: " . mysqli_error($conn);
         }
@@ -29,11 +30,10 @@ $Col2 = $_POST['column2'];
         // закрытие соединения
         mysqli_close($conn);
             
-        function goback($result) {
-            header("Location: /index.php?result=$result");
-            exit;
-        }
-        
-        goback();
+      function goback($result) {
+    header("Location: /index.php?result=$result");
+    exit;
+}
+
 ?>
         <p> <a href="/index.php">Вернуться назад</a> </p>
