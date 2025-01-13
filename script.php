@@ -30,6 +30,11 @@ $Col2 = $_POST['column2'];
         
         echo "Запись произведена!";
         
-
+        function goback()
+        {
+            header("Location: {$_SERVER['HTTP_REFERER']}");
+            exit;
+        }
+        goback();
 ?>
         <p> <a href="/index.php">Вернуться назад</a> </p>
