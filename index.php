@@ -28,7 +28,7 @@
     <br>
     <?php
     $Ans = $_POST['Answer'];
-    echo "$Ans"
+    echo "$Ans";
     ?>
     </div>
 </body>
