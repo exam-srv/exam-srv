@@ -20,5 +20,6 @@
         <button type="submit">Удалить все данные из БД</button>
     </form>
     <br>
+    <p>Тест</p>
 </body>
 </html>
