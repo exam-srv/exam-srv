@@ -24,4 +24,5 @@ $dbName = "my_db";
         mysqli_close($conn);
 
 ?>
+          <br>
           <p> <a href="/index.php">Вернуться назад</a> </p>
