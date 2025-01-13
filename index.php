@@ -26,6 +26,10 @@
         <button type="submit">Удалить все данные из БД</button>
     </form>
     <br>
+    <?php
+    $Ans = $_POST['Answer'];
+    echo "$Ans"
+    ?>
     </div>
 </body>
 </html>
