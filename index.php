@@ -7,6 +7,7 @@
 </head>
 <body>
     <br>
+    <p>Пример</p>
     <div class=border>
     <p class=title><h3>Сайт работает на PHP (NGINX) + MySQL</h3></p>
     <p>Введите значения для столбца 1 и столбца 2:</p>
